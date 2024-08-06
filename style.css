@@ -23,25 +23,25 @@ body{
 }
 .cabeca >h3{
     font-size: 10pt;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-top: 6px;
 }
 #ponto{
     padding-top: 14px;
-    padding-left: 144px;
+    padding-left: 164px;
 }
 .filter{
     padding-top: 8px;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-bottom: 15px;
 }
 .filter > button{
     background-color: #4e575ac3;
     color: rgb(135, 157, 175);
     border-radius:7px;
-font-size: 9px;
-   border: none;
-   padding: 4px 8px 3px 8px;
+    font-size: 9px;
+    border: none;
+    padding: 4px 8px 3px 8px;
    
 }
 .filter > button:hover{
@@ -99,14 +99,32 @@ font-size: 9px;
       }
 }
 .chat{
+    
     display: flex;
     align-items: center;
-    height: 45px;
+    height: 55px;
     width: 100%;
     
 }
+.chat > h6{
+    color: aliceblue;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    
+}
+.chat:hover{
+   animation: gr 0.5s forwards;
+}
+@keyframes gr{
+    0%{
+        background-color : #101d20;  
+    }
+    100%{
+        background-color : #162427; 
+    }
+}
 .icon{
-    padding-left: 6px;
+    padding-left: 15px;
     width: 35px;
     height: 35px;
     
