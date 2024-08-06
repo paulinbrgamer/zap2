@@ -12,8 +12,9 @@ body{
     width: 300px;
     height: 600px;
     background-color: #051013;
-;
+
 }
+
 .cabeca{
     display: flex;
     color: aliceblue;
@@ -21,11 +22,19 @@ body{
     border-radius: 10px;
 
 }
+::-webkit-scrollbar{
+    width: 0px;
+}
 .cabeca >h3{
     font-size: 10pt;
     padding-left: 20px;
     padding-top: 6px;
 }
+.chats{
+    height: 400px;
+    overflow:auto;
+}
+
 #ponto{
     padding-top: 14px;
     padding-left: 164px;
