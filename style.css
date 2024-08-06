@@ -11,7 +11,7 @@ body{
     border-radius: 15px;
     width: 270px;
     height: 500px;
-    background-color: #101d20;
+    background-color: #051013;
 ;
 }
 .cabeca{
@@ -36,8 +36,8 @@ body{
     padding-bottom: 15px;
 }
 .filter > button{
-    background-color: #3e4c51c3;
-    color: rgb(169, 180, 189);
+    background-color: #4e575ac3;
+    color: rgb(135, 157, 175);
     border-radius:7px;
 font-size: 9px;
    border: none;
@@ -49,7 +49,7 @@ font-size: 9px;
 }
 @keyframes gren{
     0%{
-        background-color: #3e4c51c3;
+        background-color: #434e52c3;
 
     }
     100%{
@@ -80,14 +80,14 @@ font-size: 9px;
     border-radius: 15px;
     box-sizing: border-box;
     width: 90%;
-    background-color: #3e4c51c3;
+    background-color: #4e575ac3;
 }
 .pesquisa > input::placeholder{
     font-size: 12px;
   color: rgb(169, 180, 189);
 }
 .btn:hover{
-    background-color: #516368;
+    background-color: #4e575ac3;
     animation: cor 0.3s forwards ;
 }
 @keyframes cor{
@@ -95,7 +95,7 @@ font-size: 9px;
         background-color : #101d20; 
       }
       100%{
-        background-color: #516368;
+        background-color: #4e575ac3;
       }
 }
 .chat{
