@@ -106,11 +106,36 @@ body{
     width: 100%;
     
 }
-.chat > h6{
-    color: aliceblue;
-    padding-bottom: 15px;
+.nome_msg{
+    overflow: hidden;
+   
+    width: 65%;
     padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.hora{
+    font-size: 8px;
+    color: gray;
+    margin: 0;
+}
+.msg{
+    color: grey;
+    margin: 0;
+}
+.name{
     
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: aliceblue;
+    
+    
+}
+.hr{
+    padding-right: 1px;
+    padding-bottom: 17px;
 }
 .chat:hover{
    animation: gr 0.5s forwards;
