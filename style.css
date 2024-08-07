@@ -31,8 +31,10 @@ body{
     padding-top: 6px;
 }
 .chats{
+   
     height: 400px;
     overflow:auto;
+    box-sizing: border-box;
 }
 
 #ponto{
@@ -96,22 +98,19 @@ body{
   color: rgb(169, 180, 189);
 }
 .btn:hover{
-    background-color: #4e575ac3;
+    
     animation: cor 0.3s forwards ;
 }
 @keyframes cor{
-    0% {
-        background-color : #101d20; 
-      }
+
       100%{
         background-color: #4e575ac3;
       }
 }
 .chat{
-    
     display: flex;
     align-items: center;
-    height: 55px;
+    height: 65px;
     width: 100%;
     
 }
@@ -147,12 +146,10 @@ body{
     padding-bottom: 17px;
 }
 .chat:hover{
-   animation: gr 0.5s forwards;
+   animation: gr 0.3s forwards;
 }
 @keyframes gr{
-    0%{
-        background-color : #101d20;  
-    }
+
     100%{
         background-color : #162427; 
     }
@@ -167,4 +164,45 @@ body{
     border-radius: 30px;
     width: 35px;
     height: 35px;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    
+    height: 77px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.end{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 68px;
+  
+}
+.end img{
+    width: 18px;
+    border-radius: 10px;
+    padding: 3px 12px 3px 12px;
+}
+.end img:hover{
+    animation: cht 0.3s forwards;
+}
+@keyframes cht {
+
+    100%{
+        background-color: rgba(76, 216, 76, 0.217);
+    }
+}
+.end p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    border: none;
+    background-color: transparent;
 }
