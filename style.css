@@ -197,7 +197,7 @@ body{
 .end img{
     width: 18px;
     border-radius: 10px;
-    padding: 3px 12px 3px 12px;
+    padding: 3px 14px 3px 14px;
 }
 .end img:hover{
     animation: cht 0.3s forwards;
